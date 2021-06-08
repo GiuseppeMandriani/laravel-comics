@@ -19380,6 +19380,8 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+console.log('JS on');
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
