@@ -3,3 +3,26 @@
     margin: 0 auto;
     padding: 0 1rem;
 }
+
+// Menu
+
+.social-buttons {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    a {
+        display: inline-block;
+        margin: 0 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+// buttons
+
+.btn {
+    min-width: 120px;
+    padding: 10px;
+    outline: none;
+}
