@@ -1,0 +1,23 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+        flex-basis: calc(100% / 6 - 20px);
+        margin: 10px 10px;
+    }
+}
+
+.title-comics {
+    color: $title-comics-color;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-decoration: underline;
+}
+.card-title {
+    color: $title-comics-color;
+}
+
+.card-price {
+    color: $text-color;
+}

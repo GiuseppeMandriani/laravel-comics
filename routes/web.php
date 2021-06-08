@@ -32,7 +32,7 @@ Route::get('/comics', function () {
     // Metodo b) in config creo file dove con php avrò il return di tutto l'array
 
     $comics = config('comics');
-    dump($comics);
+    // dump($comics);
 
 
     return view('comics', ['cards' => $comics]);

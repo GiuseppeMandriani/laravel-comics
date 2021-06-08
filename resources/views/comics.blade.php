@@ -9,7 +9,7 @@
 <section class="comics">
     <h2 class="title-comics">Chose your Comics</h2>
     <section class="container">
-        <div class="cards">
+        <div class="cards"> 
             @foreach ($cards as $card )
                 <div class="card">
                     <img src="{{ $card['image'] }}" alt="">
