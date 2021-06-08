@@ -44,13 +44,22 @@
     border: 1px solid $brand-color;
     background-color: transparent;
     a {
-        text-decoration: none;
         text-transform: uppercase;
+        text-decoration: none;
         color: $text-color;
         font-weight: 400;
         letter-spacing: 0.1rem;
+    }
+}
+.social-buttons {
+    a {
+        margin-right: 10px;
         img {
+            transition: 0.3s;
             vertical-align: middle;
+            &:hover {
+                transform: scale(1.2);
+            }
         }
     }
 }

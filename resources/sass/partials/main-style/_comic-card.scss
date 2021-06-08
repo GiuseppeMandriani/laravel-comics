@@ -1,4 +1,10 @@
 .cards {
+    padding-top: 300px;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 120% -16%;
+    position: relative;
+    background-image: url("https://www.dccomics.com/sites/default/files/Char_GetToKnow_Joker2_5ed6f1ebdbb351.25308490.png");
     display: flex;
     flex-wrap: wrap;
 
@@ -10,9 +16,11 @@
 
 .title-comics {
     color: $title-comics-color;
-    text-align: center;
+    text-transform: uppercase;
     letter-spacing: 0.2px;
-    text-decoration: underline;
+    position: absolute;
+    top: 20%;
+    left: 20%;
 }
 .card-title {
     color: $title-comics-color;

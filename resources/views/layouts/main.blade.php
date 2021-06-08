@@ -20,6 +20,8 @@
         @include('partials.header')
 
 
+
+
         {{-- MAIN --}}
         <main>
             @yield('content')
