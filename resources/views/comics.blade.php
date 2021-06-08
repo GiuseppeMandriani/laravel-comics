@@ -11,6 +11,7 @@
 <section class="comics">
     <section class="container">
     <h2 class="title-comics">Chose your Comics</h2>
+    <div class="back">
         <div class="cards"> 
             @foreach ($cards as $card )
                 <div class="card">
@@ -20,6 +21,8 @@
                 </div>
             @endforeach
         </div>
+    
+    </div>
     
     </section>
 </section>
