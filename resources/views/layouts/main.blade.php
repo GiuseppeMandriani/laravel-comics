@@ -24,6 +24,7 @@
 
         {{-- MAIN --}}
         <main>
+            @yield('jumbo-content')
             @yield('content')
         </main>
 

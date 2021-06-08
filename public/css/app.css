@@ -74,6 +74,46 @@ img {
   position: relative;
 }
 
+.jumbotron {
+  display: block;
+  position: relative;
+  height: 600px;
+}
+.jumbotron .jumbo-content {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.jumbotron .jumbo-content .jumbo-title {
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+.jumbotron .jumbo-content .jumbo-subtitle {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.jumbotron::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .cards {
   padding-top: 300px;
   background-size: 1000px;
