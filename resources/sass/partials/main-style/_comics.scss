@@ -6,3 +6,23 @@
     padding-top: 20px;
     position: relative;
 }
+
+.title-comics {
+    color: $title-comics-color;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.load {
+    text-transform: uppercase;
+    margin-top: 2rem;
+    background-color: $brand-color;
+    border: none;
+    a {
+        text-decoration: none;
+        color: $text-color;
+    }
+}

@@ -22,6 +22,8 @@
             @endforeach
         </div>
     
+        <button class="btn load"><a href="">load more</a></button>
+    
     </div>
     
     </section>
