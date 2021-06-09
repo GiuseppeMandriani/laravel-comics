@@ -5,9 +5,21 @@
         </a>
         <nav>
             <ul class="header-nav">
-                <li><a  href="{{ route('home')}}">Home</a></li>
-                <li><a class="active" href="{{ route('comics')}}">Comics</a></li>
-                <li><a href="{{ route('news')}}">News</a></li>
+                <li>
+                    <a class="{{ Request::is('/') ? 'active' : '' }}"  
+                        href="{{ route('home')}}">Home
+                    </a>
+                </li>
+                <li>
+                    <a class="{{ Request::is('comics') ? 'active' : '' }}"  
+                        href="{{ route('comics')}}">Comics
+                    </a>
+                </li>
+                <li>
+                    <a class="{{ Request::is('news') ? 'active' : '' }}"  
+                        href="{{ route('news')}}">News
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
